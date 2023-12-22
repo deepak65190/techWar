@@ -1,5 +1,8 @@
 #include <stdio.h>
 int main(){
-    printf("hello world") ;
+    int age ;
+    printf("enter your age ") ;
+    scanf("%d",&age) ;
+    age>=18?printf("vote"):printf("not") ;
     return 0 ;
 }
